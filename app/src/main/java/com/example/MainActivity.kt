@@ -1337,7 +1337,7 @@ fun AddOrEditButtonDialog(
                             .horizontalScroll(rememberScrollState()),
                         horizontalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
-                        listOf("power", "play", "pause", "volume_up", "volume_down", "volume_mute", "arrow_upward", "arrow_downward", "settings", "menu").forEach { iconKey ->
+                        listOf("power", "source", "play", "pause", "volume_up", "volume_down", "volume_mute", "arrow_upward", "arrow_downward", "settings", "menu").forEach { iconKey ->
                             val isSelected = iconName == iconKey
                             Box(
                                 contentAlignment = Alignment.Center,
@@ -1435,7 +1435,8 @@ fun parseColorSafely(hex: String): Color {
 
 fun getIconForName(name: String): ImageVector {
     return when (name.lowercase()) {
-        "power" -> Icons.Default.Settings // Used settings for tech configuration vibe
+        "power" -> Icons.Default.PowerSettingsNew
+        "source", "input" -> Icons.Default.Input
         "play" -> Icons.Default.PlayArrow
         "pause" -> Icons.Default.Refresh
         "volume_up", "arrow_upward" -> Icons.Default.KeyboardArrowUp
