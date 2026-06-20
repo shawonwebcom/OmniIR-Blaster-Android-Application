@@ -2,12 +2,6 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/b42a57d1-cb03-4c8e-84f2-d0b64009b8ea
-
-## Run Locally
-
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
-
 
 1. Open Android Studio
 2. Select **Open** and choose the directory containing this project
