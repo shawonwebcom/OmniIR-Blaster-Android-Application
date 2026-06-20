@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Concentric technology waves representing infrared blast signal -->
+    <!-- Wave 1: Glowing Neon Green internal signal wave -->
+    <path
+        android:pathData="M 38.4,45 A 18,18 0 0 1 69.6,45"
+        android:strokeWidth="4"
+        android:strokeColor="#38E54D"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Wave 2: Aesthetic Primary Wave (Theme Purple) -->
+    <path
+        android:pathData="M 26.3,38 A 32,32 0 0 1 81.7,38"
+        android:strokeWidth="4"
+        android:strokeColor="#D0BCFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Wave 3: Glowing wide perimeter arc (Semi-translucent Purple) -->
+    <path
+        android:pathData="M 14.1,31 A 46,46 0 0 1 93.9,31"
+        android:strokeWidth="3.2"
+        android:strokeColor="#7FD0BCFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Highly detailed technical body of the smart emitter remote -->
+    <path
+        android:pathData="M 42,65 H 66 V 88 A 6,6 0 0 1 60,94 H 48 A 6,6 0 0 1 42,88 Z"
+        android:fillColor="#211F26"
+        android:strokeWidth="2"
+        android:strokeColor="#49454F" />
+
+    <!-- Emitter nozzle pointing towards the infrared diode glass -->
+    <path
+        android:pathData="M 50,65 L 54,58 L 58,65 Z"
+        android:fillColor="#D0BCFF" />
+
+    <!-- Active center green LED diode bulb -->
+    <path
+        android:pathData="M 51.5 54.5 A 2.5 2.5 0 1 0 56.5 54.5 A 2.5 2.5 0 1 0 51.5 54.5"
+        android:fillColor="#38E54D" />
+
+    <!-- Center active network transmitter power led -->
+    <path
+        android:pathData="M 52 73 A 2 2 0 1 0 56 73 A 2 2 0 1 0 52 73"
+        android:fillColor="#38E54D" />
+
+    <!-- Auxiliary hardware status indicators -->
+    <path
+        android:pathData="M 46.2 83 A 1.8 1.8 0 1 0 49.8 83 A 1.8 1.8 0 1 0 46.2 83"
+        android:fillColor="#CAC4D0" />
+
+    <path
+        android:pathData="M 58.2 83 A 1.8 1.8 0 1 0 61.8 83 A 1.8 1.8 0 1 0 58.2 83"
+        android:fillColor="#CAC4D0" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "OmniIR Blaster",
+  "description": "IR Blaster control center to configure, manage, and transmit custom Infrared timings and protocol codes. Created by Shawon Web.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
